@@ -47,14 +47,13 @@ yarn start
 ブラウザで http://localhost:3000 にアクセスします。
 
 JSON Server の設定
-JSON Server は db.json ファイルを使用してデータを管理します。必要に応じて db.json ファイルを編集してください。
+JSON Server は restData.json ファイルを使用してデータを管理します。必要に応じて restData.json ファイルを編集してください。
 
 Redux の構成
-Redux の状態管理は src/redux ディレクトリにあります。
+Redux の状態管理は src/store ディレクトリにあります。
 
-actions.js: アクションクリエイター
-reducers.js: リデューサー
-store.js: ストアの設定
+store/slicer.ts: リデューサー
+store/.indexts: ストアの設定
 Axios の設定
 Axios は src/api.js ファイルで設定されています。
 
