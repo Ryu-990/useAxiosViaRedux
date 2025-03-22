@@ -1,46 +1,86 @@
-# Getting Started with Create React App
+プロジェクト名
+[useAxiosViaRedux]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+プロジェクト概要
+このプロジェクトは、React、Axios、Redux、JSON Server を使用したサンプルアプリケーションです。JSON Server をバックエンドとして使用し、Axios を通じてデータを取得・更新します。Redux を使用してアプリケーションの状態を管理します。
 
-## Available Scripts
+使用技術
+React
+Axios
+Redux
+JSON Server
+動作環境
+Node.js (バージョン 14 以降推奨)
+npm
+インストール手順
+リポジトリをクローンします。
 
-In the project directory, you can run:
+Bash
 
-### `npm start`
+git clone [リポジトリの URL]
+プロジェクトのディレクトリに移動します。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Bash
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+cd [プロジェクトのディレクトリ名]
+依存関係をインストールします。
 
-### `npm test`
+Bash
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
+# または
+yarn install
+JSON Server を起動します。
 
-### `npm run build`
+Bash
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm run server
+# または
+yarn server
+アプリケーションを起動します。
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Bash
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
+# または
+yarn start
+ブラウザで http://localhost:3000 にアクセスします。
 
-### `npm run eject`
+JSON Server の設定
+JSON Server は db.json ファイルを使用してデータを管理します。必要に応じて db.json ファイルを編集してください。
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Redux の構成
+Redux の状態管理は src/redux ディレクトリにあります。
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+actions.js: アクションクリエイター
+reducers.js: リデューサー
+store.js: ストアの設定
+Axios の設定
+Axios は src/api.js ファイルで設定されています。
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+ディレクトリ構成
+[プロジェクトのディレクトリ]
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── [コンポーネント]
+│   ├── redux/
+│   │   ├── actions.js
+│   │   ├── reducers.js
+│   │   └── store.js
+│   ├── api.js
+│   ├── App.js
+│   └── index.js
+├── db.json
+├── package.json
+└── README.md
+今後の課題
+[課題 1]
+[課題 2]
+[課題 3]
+作者
+[RyuHazako]
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ライセンス
+Copyright (C) 2024 [RyuHazako]
