@@ -7,7 +7,7 @@
 使用技術
 React
 Axios
-Redux
+@reduxjs/toolkit
 JSON Server
 動作環境
 Node.js (バージョン 14 以降推奨)
