@@ -63,23 +63,23 @@ Axios の設定
 Axios は src/api.js ファイルで設定されています。
 
 ```sh
-ディレクトリ構成<br>
-[プロジェクトのディレクトリ]<br>
-├── public/<br>
-│   └── index.html<br>
-├── src/<br>
-│   ├── components/<br>
-│   │   └── [コンポーネント]<br>
-│   ├── redux/<br>
-│   │   ├── actions.js<br>
-│   │   ├── reducers.js<br>
-│   │   └── store.js<br>
-│   ├── api.js<br>
-│   ├── App.js<br>
-│   └── index.js<br>
-├── db.json<br>
-├── package.json<br>
-└── README.md<br>
+ディレクトリ構成
+[プロジェクトのディレクトリ]
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── [コンポーネント]
+│   ├── redux/
+│   │   ├── actions.js
+│   │   ├── reducers.js
+│   │   └── store.js
+│   ├── api.js
+│   ├── App.js
+│   └── index.js
+├── db.json
+├── package.json
+└── README.md
 ```
 
 今後の課題<br>
