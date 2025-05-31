@@ -78,8 +78,5 @@ Axios は src/api.js ファイルで設定されています。
 [課題 1]
 [課題 2]
 [課題 3]
-作者
+編集者
 [RyuHazako]
-
-ライセンス
-Copyright (C) 2024 [RyuHazako]
