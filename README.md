@@ -62,6 +62,7 @@ store/.indexts: ストアの設定
 Axios の設定
 Axios は src/api.js ファイルで設定されています。
 
+```sh
 ディレクトリ構成<br>
 [プロジェクトのディレクトリ]<br>
 ├── public/<br>
@@ -79,6 +80,8 @@ Axios は src/api.js ファイルで設定されています。
 ├── db.json<br>
 ├── package.json<br>
 └── README.md<br>
+```
+
 今後の課題<br>
 [課題 1]<br>
 [課題 2]<br>
