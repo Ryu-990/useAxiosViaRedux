@@ -4,46 +4,51 @@
 プロジェクト概要
 このプロジェクトは、React、Axios、Redux、JSON Server を使用したサンプルアプリケーションです。JSON Server をバックエンドとして使用し、Axios を通じてデータを取得・更新します。Redux を使用してアプリケーションの状態を管理します。
 
-使用技術
-React
-Axios
-@reduxjs/toolkit
-JSON Server
-動作環境
-Node.js (バージョン 14 以降推奨)
-npm
-インストール手順
-リポジトリをクローンします。
+使用技術<br>
+React<br>
+Axios<br>
+@reduxjs/toolkit<br>
+JSON Server<br>
+動作環境<br>
+Node.js (バージョン 14 以降推奨)<br>
+npm<br>
+インストール手順<br>
+リポジトリをクローンします。<br>
 
-Bash
-
+```sh
 git clone [リポジトリの URL]
+```
+
 プロジェクトのディレクトリに移動します。
 
-Bash
-
+```sh
 cd [プロジェクトのディレクトリ名]
+```
+
 依存関係をインストールします。
 
-Bash
-
+```sh
 npm install
 # または
 yarn install
+```
+
 JSON Server を起動します。
 
-Bash
-
+```sh
 npm run server
 # または
 yarn server
+```
+
 アプリケーションを起動します。
 
-Bash
-
+```sh
 npm start
 # または
 yarn start
+```
+
 ブラウザで http://localhost:3000 にアクセスします。
 
 JSON Server の設定
